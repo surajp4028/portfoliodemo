@@ -1,0 +1,384 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(233, 233, 233);
+    font-family: sans-serif;
+}
+.navbar{
+    background: white;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    place-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid crimson;
+}
+
+.lo,.go{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 22px;
+}
+.go{
+    color: rgb(0, 195, 255);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 2px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    padding: 6px 15px;
+}
+.contact button{
+    color: white;
+    border: none;
+    background: rgb(255, 0, 76);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .3s ease-in;
+}
+.contact button a{
+    text-decoration: none;
+    color: white;
+}
+.contact button:hover{
+    background: rgb(240, 2, 73);
+    font-weight: 500;
+    cursor: pointer;
+}
+.home-section{
+    text-align: center;
+    background-image: url('bird.jpg');
+    background-repeat: no-repeat;
+    background-size: 120% 150%;
+    padding: 130px 10px;
+    color: white;
+    background-attachment: fixed;
+}
+.hire-me{
+    border: 2px solid rgb(255, 0, 76);
+    padding: 5px 15px;
+    background: none;
+    color: white;
+    transition: ease;
+}
+.hire-me:hover{
+    background: rgb(255, 0, 76);;
+
+}
+.cv{
+    padding: 7px 15px;
+    background: rgb(255, 0, 76);
+    border: none;
+    color: white;
+    transition: .2s ease;
+    /* width: 130px; */
+}
+.cv:hover{
+    cursor: pointer;
+    background: rgb(230, 2, 70);
+}
+.home h1{
+    font-size: bold;
+}
+#about-section{
+    padding: 10px;
+    text-align: center;
+}
+#about{
+   font-size: 18px;
+}
+#line{
+    width: 70px;
+    background: crimson;
+    height: 3px;
+    margin: -12px auto 10px auto;
+}
+#about-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+#img img{
+    width: 400px;
+    padding: 3px 40px;
+}
+#about-para{
+    width: 400px;
+    padding: 3px 40px;
+    
+}
+#dcv{
+    background: transparent;
+    border: 2px solid crimson;
+    padding: 10px 20px ;
+    font-size: 12px;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: .3s ease;
+    /* height: 40px; */
+    
+}
+#dcv:hover{
+    background: crimson;
+    padding: 12px 20px ;
+    color:rgb(233, 233, 233);
+    font-weight: bold;
+}
+.contact-section{
+    padding: 20px;
+    text-align: center;
+    background: rgb(27, 26, 26);
+}
+.contact h2{
+    color: white;
+}
+#co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 20px 0px;
+   flex-wrap: wrap;
+}
+form{
+    padding: 10px 50px;
+    text-align: left; 
+}
+form input{
+    padding: 4px;
+    /* margin-top: 3px; */
+}
+form label{
+    font-size: 16px;
+    margin-top: 40px;
+    color: white;
+}
+form textarea{
+    margin-top: 3px;
+    border: none;
+    border-bottom: 2px solid crimson;
+    background: transparent;
+    color: rgb(189, 188, 188);
+}
+form input[type="text"], input[type="email"]{
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid crimson;
+    background: transparent;
+}
+#submit{
+    margin-top: 10px;
+    padding: 10px 30px;
+}
+#submit:hover{
+    background: rgb(179, 5, 40);
+    font-size: 14px;
+}
+#map{
+    padding: 10px 50px;
+}
+iframe{
+    height: 300px;
+    width: 500px;
+}
+#services-section{
+    padding: 50px;
+    text-align: center;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    padding: 20px;
+}
+.service-no{
+width: 20%;
+padding: 10px ;
+/* border: 2px solid crimson; */
+margin: 10px;
+}
+.service-no:hover{
+    border-right: 1px solid crimson;
+    border-bottom: 1px solid crimson;
+    box-shadow: 2px 2px 5px crimson;
+}
+#service-name{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+#portfolio-section{
+    padding: 10px;
+    text-align: center;
+}
+#portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+.box{
+    width: 25%;
+    height: 22%;
+    /* border: 2px solid crimson; */
+    padding: 40px 0px;
+    margin: 10px;
+    
+}
+#box1{
+    background: url('white-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+#box2{
+    
+    background: url('timeandskill.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-weight: bold;
+   
+    
+}
+#box3{
+    background: url('radheyfashion.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-weight: bold;
+}
+#box4{
+    background: url('quotes.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    color: white;
+    font-weight: bold;
+}
+#box5{
+    background: url('w.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    color: white;
+    font-weight: bold;
+}
+#box6{
+    background: url('s.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    color: white;
+    font-weight: bold;
+}
+@keyframes line{
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 70px;
+    }
+    100%{
+        width: 0px;
+    }
+}
+#line{
+    animation-name: line;
+    animation-duration: 2s;
+    animation-iteration-count: 8;
+    animation-timing-function: ease;
+}
+@keyframes cv{
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 130px;
+    }
+    100%{
+        width: 120px;
+    }
+}
+.cv{
+    overflow: hidden;
+    animation-name: cv;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease;
+}
+footer{
+    text-align: center;
+    padding: 0px;
+}
+#suraj{
+    color: crimson;
+}
+@media screen  and (max-width:700px){
+    #con-button{
+        display:none;
+    }
+    .navbar{
+        /* position: fixed; */
+       width: 100vw;
+    }
+    nav{
+        font-size: 10px;
+        margin: 2px 0px;
+    }
+    .container .lo,.go{
+        font-size: 18px
+    }
+    .home-section{
+        padding: 100px 0px;  
+        background-size: 130%;
+    }
+    .subhead{
+        font-size: 10px;
+        letter-spacing: 2px;
+        padding-top: 30px;
+        margin-bottom: -20px;
+    }
+    #about-box{
+       flex-wrap: wrap;
+    }
+    #img img{
+      width: 200px;
+    }
+    #about-para{
+        width: 300px;
+    }
+    #services{
+        flex-wrap: wrap;
+    }
+    .service-no{
+        width: 250%;
+        height: 10%;
+    }
+    .box{
+        width: 300px;
+    }
+    form input[type="text"], input[type="email"]{
+        width: 180px;
+    }
+    textarea{
+        width: 100%;
+        height: 50%;
+    }
+    iframe{
+        height: 200px;
+        width: 310px;
+    }
+}
